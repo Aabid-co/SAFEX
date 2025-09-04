@@ -266,7 +266,8 @@ class SAFEXApp {
   }
   
   cycleTheme() {
-    const themes = ['dark', 'light', 'contrast'];
+     // const themes = ['dark', 'light', 'contrast'];
+    const themes = ['dark', 'light'];
     const currentIndex = themes.indexOf(this.currentTheme);
     const nextIndex = (currentIndex + 1) % themes.length;
     
