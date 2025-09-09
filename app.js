@@ -218,7 +218,7 @@ const SAFEX_DATA = {
 class SAFEXApp {
   constructor() {
     this.currentPage = 'home';
-    this.currentTheme = localStorage.getItem('safex-theme') || 'dark';
+    this.currentTheme = localStorage.getItem('safex-theme') || 'light';
     this.assessmentData = {
       currentQuestion: 0,
       answers: {},
